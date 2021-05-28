@@ -25,7 +25,9 @@ module.exports = {
       newTags.push(seedData);
     }
     queryInterface.bulkInsert('Users',newUsers);
-    queryInterface.bulkInsert('Tags',newTags);
+    //queryInterface.bulkInsert('Tags',newTags);
+
+    //j'ai pas compris la dernier Question !
   },
 
   down: async (queryInterface,Sequelize) => {
